@@ -142,8 +142,7 @@
     <ClCompile Include="A. Chat room\Source.cpp" />
     <ClCompile Include="A. Soldier and Bananas\Source.cpp" />
     <ClCompile Include="A. Young Physicist\Source.cpp" />
-    <ClCompile Include="program 2\Source.cpp" />
-    <ClCompile Include="program-1\Source.cpp" />
+    <ClCompile Include="sample\Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
