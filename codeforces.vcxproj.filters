@@ -27,5 +27,8 @@
     <ClCompile Include="A. Soldier and Bananas\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="A. Chat room\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
