@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A. Chat room\Source.cpp" />
+    <ClCompile Include="A. Lucky Division\Source.cpp" />
     <ClCompile Include="A. Soldier and Bananas\Source.cpp" />
     <ClCompile Include="A. Young Physicist\Source.cpp" />
     <ClCompile Include="sample\Source.cpp" />

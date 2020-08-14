@@ -7,6 +7,7 @@ using namespace std;
 
 typedef long long ll;
 typedef long double ld;
+typedef unsigned int ui;
 typedef complex<ld> cd;
 
 typedef pair<int, int> pi;
@@ -47,10 +48,27 @@ const int MX = 100001; //check the limits, dummy
 int main() {
 	ios_base::sync_with_stdio(0); cin.tie(0);
 
-
-
+	int n;
+	string temp;
+	bool b=0;
+	cin >> n;
+	FOR(j, 1, n+1)
+		if (n % j == 0) {
+			temp = to_string(j);
+			
+			FOR(i, 0, temp.length()) {
+				if (!(temp[i] == '7' || temp[i] == '4')) {
+					b = 0;
+					break;
+				}
+				b = 1;
+			}
+			if (b == 1)break;
+		}
+	
+	if(b)cout << "YES";
+	else cout << "NO";
 	return 0;
 }
-
 // read the question correctly (ll vs int)
 // template by bqi343
